@@ -29,6 +29,9 @@
                ip + 60
            }
            var ip2 = (parseInt(Math.random()* 30))
+           if(ip2 < 10){
+               ip2+ 9
+           }
         
        window.onload(alert(`Você foi hackeado e seu ip é 192.${ip}.${ip2}`))
     </script>
